@@ -3,7 +3,7 @@ module.exports = {
   parserOptions: {
     requireConfigFile: false,
   },
-  extends: ['plugin:prettier/recommended', 'eslint:recommended', 'standard'],
+  extends: [ 'eslint:recommended', 'standard'],
   plugins: [ 'require-path-exists'],
   rules: {
     'arrow-parens': ['error', 'as-needed'],
