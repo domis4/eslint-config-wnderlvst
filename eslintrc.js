@@ -1,6 +1,6 @@
 module.exports = {
   parser: 'babel-eslint',
-  extends: ['eslint:recommended', 'standard', 'prettier'],
+  extends: ['prettier', 'eslint:recommended', 'standard'],
   plugins: [ 'jest', 'prettier', 'require-path-exists'],
   rules: {
     'arrow-parens': ['error', 'as-needed'],
