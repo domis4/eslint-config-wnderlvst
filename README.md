@@ -13,22 +13,9 @@ Once you installed `eslint-config-wnderlvst`, you can use it by specifying `wnde
 ```js
 module.exports = {
   parser: '@babel/eslint-parser',
-  plugins: ['react'],
-  parserOptions: {
-    ecmaFeatures: {
-      jsx: true
-    }
-  },
-
-  extends: ['wnderlvst', 'plugin:react/recommended'],
-  settings: {
-    react: {
-      version: '16.10.2'
-    }
-  },
-  rules: {
-    'react/prop-types': 0
-  }
+  ...
+  extends: ['wnderlvst'],
+  ...
 }
 
 ```
