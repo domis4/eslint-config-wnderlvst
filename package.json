@@ -18,24 +18,27 @@
   ],
   "author": "wnderlvst",
   "devDependencies": {
-    "eslint": "^5.9.0",
-    "lint-staged": "^8.1.0",
-    "prettier": "^1.15.3"
+    "eslint": "^8.1.0",
+    "lint-staged": "^11.2.6",
+    "prettier": "^2.4.1"
   },
   "dependencies": {
     "@babel/core": "^7.16.0",
     "@babel/eslint-parser": "^7.16.0",
     "eslint-config-prettier": "^8.3.0",
-    "eslint-config-standard": "^12.0.0",
+    "eslint-config-standard": "^16.0.3",
     "eslint-plugin-import": "^2.14.0",
-    "eslint-plugin-node": "^8.0.0",
-    "eslint-plugin-prettier": "^3.0.0",
-    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-promise": "^5.1.1",
     "eslint-plugin-require-path-exists": "^1.1.9",
-    "eslint-plugin-standard": "^4.0.0"
+    "eslint-plugin-standard": "^5.0.0"
   },
   "peerDependencies": {
     "eslint": "^5.9.0",
     "prettier": "^1.15.3"
+  },
+  "engines": {
+    "node": ">=16.0.0"
   }
 }
