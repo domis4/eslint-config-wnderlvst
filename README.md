@@ -13,9 +13,8 @@ Once you installed `eslint-config-wnderlvst`, you can use it by specifying `wnde
 ```js
 module.exports = {
   parser: '@babel/eslint-parser',
-  ...
   extends: ['wnderlvst'],
-  ...
+  [...]
 }
 
 ```
