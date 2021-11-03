@@ -4,7 +4,7 @@ module.exports = {
     requireConfigFile: false,
   },
   extends: ['plugin:prettier/recommended', 'eslint:recommended', 'standard'],
-  plugins: [ 'prettier', 'require-path-exists'],
+  plugins: [ 'require-path-exists'],
   rules: {
     'arrow-parens': ['error', 'as-needed'],
     curly: ['error', 'all'],
