@@ -3,8 +3,7 @@
 ## Installation
 
 ```
-# Install `eslint-config-wnderlvst`:
-$ yarn add -D eslint-config-wnderlvst
+yarn add -D domis4/eslint-config-wnderlvst
 ```
 
 ## Usage
